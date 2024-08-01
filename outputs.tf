@@ -1,3 +1,3 @@
 output "bucket_name" {
-  value = aws_s3_bucket.dammieauto.bucket
+  value = aws_s3_bucket.s3_auto.bucket
 }
