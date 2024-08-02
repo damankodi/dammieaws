@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "s3autoyuvika" {
-  bucket = "s3-auto"
+  bucket = "s3autoyuvika"
 }
 
 resource "aws_s3_bucket_acl" "s3autoyuvika" {
